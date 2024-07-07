@@ -19,15 +19,30 @@ export const experience = [
   { title: "Over 6 Years", value: "6-20" },
 ];
 
+// export const popularSearch = [
+//   "Software Engineer",
+//   "Developer",
+//   "Full-Stack Developer",
+//   "Data Scientist",
+//   "Remote",
+//   "Full-Time",
+//   "Sales",
+//   "Office Assistant",
+// ];
+
 export const popularSearch = [
-  "Software Engineer",
-  "Developer",
-  "Full-Stack Developer",
-  "Data Scientist",
-  "Remote",
-  "Full-Time",
-  "Sales",
-  "Office Assistant",
+  "Video Editor",
+  "Script Writer",
+  "Thumbnail Designer",
+  "Content Strategist",
+  "Voice Over Artist",
+  "SEO Specialist",
+  "Social Media Manager",
+  "Animator",
+  "Channel Manager",
+  "Graphic Designer",
+  "Cinematographer",
+
 ];
 
 export const jobs = [

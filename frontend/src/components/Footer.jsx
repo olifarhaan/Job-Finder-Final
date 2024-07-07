@@ -14,7 +14,7 @@ const Footer = () => {
           viewBox='0 0 1200 120'
           xmlns='http://www.w3.org/2000/svg'
           style={{
-            fill: "hsl(270, 60%, 50%)",
+            fill:"#FF0000",
             width: "125%",
             height: 112,
             transform: "rotate(180deg)",
@@ -24,7 +24,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className='bg-purple-600'>
+      <div className='bg-[#FF0000]'>
         <div className='container px-5 py-20 mx-auto '>
           <div className='w-full flex flex-wrap gap-10 justify-between -mb-10 -px-4'>
             {footerLinks.map(({ id, title, links }) => (
@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link
                       key={link + index}
                       to='/'
-                      className='text-gray-300 text-sm hover:text-white '
+                      className='text-white text-sm hover:text-white '
                     >
                       {link}
                     </Link>
@@ -51,22 +51,22 @@ const Footer = () => {
 
         
 
-        <div className='bg-purple-900'>
+        <div className='bg-[#FF0000]'>
           <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
-            <p className='text-gray-300 text-sm text-center sm:text-left'>
-              &copy; 2023 JobFinder —
+            <p className='text-white text-sm text-center sm:text-left'>
+              &copy; 2024 CrewTube —
               <a
                 href='https://www.linkedin.com/in/thatonekrish/'
-                className='text-[#1199e7] ml-1'
+                className='text-white ml-1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                @ThatOneKrish
+                @CrewTube
               </a>
             </p>
 
-            <span className='sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm'>
-              Designed by ThatOneKrish
+            <span className='sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-white text-sm'>
+              Designed by CrewTube
             </span>
           </div>
         </div>

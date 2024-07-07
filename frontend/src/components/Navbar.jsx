@@ -114,22 +114,22 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="relative bg-[#f7fdfd] z-50">
+      <div className="relative bg-[#FF0000] z-50">
         <nav className="container mx-auto flex items-center justify-between p-5">
           <div>
-            <Link to="/" className="text-purple-600 font-bold text-xl">
-              Job<span className="text-purple-400">Finder</span>
+            <Link to="/" className="text-black font-bold text-xl">
+              Crew<span className="text-white">Tube</span>
             </Link>
           </div>
 
-          <ul className="hidden lg:flex text-purple-600 gap-10 text-base">
-            <li>
+          <ul className="hidden lg:flex text-black gap-10 text-base ">
+            <li className="hover:text-white">
               <Link to="/">Find Job</Link>
             </li>
-            <li>
+            <li className="hover:text-white">
               <Link to="/companies">Companies</Link>
             </li>
-            <li>
+            <li className="hover:text-white">
               <Link
                 to={
                   user?.accountType === "seeker"
@@ -142,17 +142,17 @@ const Navbar = () => {
                   : "Upload Jobs"}
               </Link>
             </li>
-            <li>
+            <li className="hover:text-white">
               <Link to="/about-us">About</Link>
             </li>
           </ul>
 
-          <div className="hidden lg:block">
+          <div className="hidden text-white lg:block">
             {!user?.token ? (
               <Link to="/user-auth">
                 <CustomButton
                   title="Sign In"
-                  containerStyles="text-purple-600 py-1.5 px-5 focus:outline-none hover:bg-blue-700 hover:text-white rounded-full text-base border border-blue-600"
+                  containerStyles="text-white py-1.5 px-5 focus:outline-none hover:bg-blue-7000 hover:text-white rounded-full text-base border border-white"
                 />
               </Link>
             ) : (
