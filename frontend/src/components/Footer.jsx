@@ -24,7 +24,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className='bg-purple-600 '>
+      <div className='bg-purple-600'>
         <div className='container px-5 py-20 mx-auto '>
           <div className='w-full flex flex-wrap gap-10 justify-between -mb-10 -px-4'>
             {footerLinks.map(({ id, title, links }) => (

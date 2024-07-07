@@ -186,10 +186,10 @@ export const getCompanies = async (req, res, next) => {
       queryResult = queryResult.sort("createdAt");
     }
     if (sort === "A-Z") {
-      queryResult = queryResult.sort("name");
+      queryResult = queryResult.sort("-name");
     }
     if (sort === "Z-A") {
-      queryResult = queryResult.sort("-name");
+      queryResult = queryResult.sort("name");
     }
 
     // PADINATIONS
